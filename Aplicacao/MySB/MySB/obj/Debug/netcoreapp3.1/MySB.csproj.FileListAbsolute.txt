@@ -16,3 +16,5 @@ E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\netcoreapp3.
 E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\netcoreapp3.1\MySB.pdb
 E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\netcoreapp3.1\MySB.genruntimeconfig.cache
 E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\netcoreapp3.1\MySB.csproj.Fody.CopyLocal.cache
+E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\netcoreapp3.1\MySB.Formulários.Fornecedor.resources
+E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\netcoreapp3.1\MySB.Properties.Resources.resources

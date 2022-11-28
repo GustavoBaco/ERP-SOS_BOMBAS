@@ -69,11 +69,6 @@ namespace MySB.Formulários
            
         }
 
-        private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             LayoutMdi(MdiLayout.Cascade);
@@ -81,7 +76,10 @@ namespace MySB.Formulários
 
         private void TileVerticalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            LayoutMdi(MdiLayout.TileVertical);
+            Fornecedor formFornecedor = new Fornecedor();
+            formFornecedor.MdiParent = this;
+            formFornecedor.Show();
+            //LayoutMdi(MdiLayout.TileVertical);
         }
 
         private void TileHorizontalToolStripMenuItem_Click(object sender, EventArgs e)

@@ -29,6 +29,7 @@ namespace MySB
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.txbLogin = new System.Windows.Forms.TextBox();
             this.mskSenha = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -101,6 +102,7 @@ namespace MySB
             this.Controls.Add(this.label1);
             this.Controls.Add(this.mskSenha);
             this.Controls.Add(this.txbLogin);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
