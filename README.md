@@ -1,7 +1,7 @@
 # SISTEMA PARA GESTÃO MICRO EMPRESA
 
 **Objetivo do projeto:**
-O projeto têm como finalidade, desenvolver módulos básicos para uma micro-empresa, para que a mesa possa fazer uma gestão de seus serviços.
+O projeto têm como finalidade, desenvolver módulos básicos para uma micro-empresa, para que a mesma possa fazer uma gestão de seus serviços.
 
 **Pontos importantes:**
 
