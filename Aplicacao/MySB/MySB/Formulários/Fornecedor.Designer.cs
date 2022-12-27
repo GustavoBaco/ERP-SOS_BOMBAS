@@ -53,6 +53,10 @@ namespace MySB.Formulários
             this.label2 = new System.Windows.Forms.Label();
             this.mtbCnpj = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -128,6 +132,10 @@ namespace MySB.Formulários
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.cbxUf);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.mtbCep);
@@ -144,7 +152,7 @@ namespace MySB.Formulários
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 28);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(585, 262);
+            this.groupBox1.Size = new System.Drawing.Size(585, 198);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados fornecedores";
@@ -152,7 +160,7 @@ namespace MySB.Formulários
             // cbxUf
             // 
             this.cbxUf.FormattingEnabled = true;
-            this.cbxUf.Location = new System.Drawing.Point(149, 146);
+            this.cbxUf.Location = new System.Drawing.Point(346, 148);
             this.cbxUf.Name = "cbxUf";
             this.cbxUf.Size = new System.Drawing.Size(46, 23);
             this.cbxUf.TabIndex = 11;
@@ -160,7 +168,7 @@ namespace MySB.Formulários
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(149, 128);
+            this.label7.Location = new System.Drawing.Point(346, 130);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(24, 15);
             this.label7.TabIndex = 10;
@@ -168,7 +176,7 @@ namespace MySB.Formulários
             // 
             // mtbCep
             // 
-            this.mtbCep.Location = new System.Drawing.Point(6, 146);
+            this.mtbCep.Location = new System.Drawing.Point(426, 148);
             this.mtbCep.Mask = "00000-000";
             this.mtbCep.Name = "mtbCep";
             this.mtbCep.Size = new System.Drawing.Size(114, 23);
@@ -177,7 +185,7 @@ namespace MySB.Formulários
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 128);
+            this.label6.Location = new System.Drawing.Point(426, 130);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 15);
             this.label6.TabIndex = 2;
@@ -185,7 +193,7 @@ namespace MySB.Formulários
             // 
             // txbBairro
             // 
-            this.txbBairro.Location = new System.Drawing.Point(426, 93);
+            this.txbBairro.Location = new System.Drawing.Point(6, 148);
             this.txbBairro.Name = "txbBairro";
             this.txbBairro.Size = new System.Drawing.Size(139, 23);
             this.txbBairro.TabIndex = 8;
@@ -193,7 +201,7 @@ namespace MySB.Formulários
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(426, 75);
+            this.label5.Location = new System.Drawing.Point(6, 130);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 15);
             this.label5.TabIndex = 2;
@@ -264,11 +272,43 @@ namespace MySB.Formulários
             this.label1.TabIndex = 0;
             this.label1.Text = "CNPJ:";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(165, 130);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(47, 15);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Cidade:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(426, 75);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(87, 15);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "Complemento:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(426, 93);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(139, 23);
+            this.textBox1.TabIndex = 13;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(165, 148);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(159, 23);
+            this.textBox2.TabIndex = 14;
+            // 
             // Fornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(608, 450);
+            this.ClientSize = new System.Drawing.Size(608, 241);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.toolStrip1);
             this.Name = "Fornecedor";
@@ -308,5 +348,9 @@ namespace MySB.Formulários
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txbBairro;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
     }
 }

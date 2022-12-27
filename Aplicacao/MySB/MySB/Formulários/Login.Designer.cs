@@ -47,7 +47,7 @@ namespace MySB
             // 
             // mskSenha
             // 
-            this.mskSenha.Location = new System.Drawing.Point(189, 33);
+            this.mskSenha.Location = new System.Drawing.Point(12, 84);
             this.mskSenha.Name = "mskSenha";
             this.mskSenha.PasswordChar = '*';
             this.mskSenha.Size = new System.Drawing.Size(149, 23);
@@ -65,7 +65,7 @@ namespace MySB
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(189, 15);
+            this.label2.Location = new System.Drawing.Point(12, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 15);
             this.label2.TabIndex = 3;
@@ -73,9 +73,9 @@ namespace MySB
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(12, 66);
+            this.btnEntrar.Location = new System.Drawing.Point(12, 125);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(94, 31);
+            this.btnEntrar.Size = new System.Drawing.Size(73, 31);
             this.btnEntrar.TabIndex = 4;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = true;
@@ -83,9 +83,9 @@ namespace MySB
             // 
             // btnSair
             // 
-            this.btnSair.Location = new System.Drawing.Point(112, 66);
+            this.btnSair.Location = new System.Drawing.Point(91, 125);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(94, 31);
+            this.btnSair.Size = new System.Drawing.Size(73, 31);
             this.btnSair.TabIndex = 5;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@ namespace MySB
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(356, 109);
+            this.ClientSize = new System.Drawing.Size(176, 176);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.label2);
@@ -103,6 +103,8 @@ namespace MySB
             this.Controls.Add(this.mskSenha);
             this.Controls.Add(this.txbLogin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(192, 215);
+            this.MinimumSize = new System.Drawing.Size(192, 215);
             this.Name = "Login";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
