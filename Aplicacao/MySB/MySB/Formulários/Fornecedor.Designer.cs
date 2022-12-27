@@ -55,8 +55,8 @@ namespace MySB.Formulários
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbxComplemento = new System.Windows.Forms.TextBox();
+            this.tbxCidade = new System.Windows.Forms.TextBox();
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -132,8 +132,8 @@ namespace MySB.Formulários
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.tbxCidade);
+            this.groupBox1.Controls.Add(this.tbxComplemento);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.cbxUf);
@@ -290,19 +290,19 @@ namespace MySB.Formulários
             this.label9.TabIndex = 12;
             this.label9.Text = "Complemento:";
             // 
-            // textBox1
+            // tbxComplemento
             // 
-            this.textBox1.Location = new System.Drawing.Point(426, 93);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 23);
-            this.textBox1.TabIndex = 13;
+            this.tbxComplemento.Location = new System.Drawing.Point(426, 93);
+            this.tbxComplemento.Name = "tbxComplemento";
+            this.tbxComplemento.Size = new System.Drawing.Size(139, 23);
+            this.tbxComplemento.TabIndex = 13;
             // 
-            // textBox2
+            // tbxCidade
             // 
-            this.textBox2.Location = new System.Drawing.Point(165, 148);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(159, 23);
-            this.textBox2.TabIndex = 14;
+            this.tbxCidade.Location = new System.Drawing.Point(165, 148);
+            this.tbxCidade.Name = "tbxCidade";
+            this.tbxCidade.Size = new System.Drawing.Size(159, 23);
+            this.tbxCidade.TabIndex = 14;
             // 
             // Fornecedor
             // 
@@ -348,8 +348,8 @@ namespace MySB.Formulários
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txbBairro;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbxCidade;
+        private System.Windows.Forms.TextBox tbxComplemento;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
     }
