@@ -1,3 +1,9 @@
 is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = MySB
-build_property.ProjectDir = E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\
+build_property.ProjectDir = C:\dev\SOSBombas - Projeto\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\

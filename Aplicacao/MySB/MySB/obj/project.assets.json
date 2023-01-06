@@ -4546,19 +4546,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gmanc\\.nuget\\packages\\": {}
+    "C:\\Users\\gmanc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\SOS BOMBAS\\ERP-SOS_BOMBAS\\Aplicacao\\MySB\\MySB\\MySB.csproj",
+      "projectUniqueName": "C:\\dev\\SOSBombas - Projeto\\ERP-SOS_BOMBAS\\Aplicacao\\MySB\\MySB\\MySB.csproj",
       "projectName": "MySB",
-      "projectPath": "E:\\Projetos\\SOS BOMBAS\\ERP-SOS_BOMBAS\\Aplicacao\\MySB\\MySB\\MySB.csproj",
+      "projectPath": "C:\\dev\\SOSBombas - Projeto\\ERP-SOS_BOMBAS\\Aplicacao\\MySB\\MySB\\MySB.csproj",
       "packagesPath": "C:\\Users\\gmanc\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\SOS BOMBAS\\ERP-SOS_BOMBAS\\Aplicacao\\MySB\\MySB\\obj\\",
+      "outputPath": "C:\\dev\\SOSBombas - Projeto\\ERP-SOS_BOMBAS\\Aplicacao\\MySB\\MySB\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\gmanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4609,7 +4614,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
