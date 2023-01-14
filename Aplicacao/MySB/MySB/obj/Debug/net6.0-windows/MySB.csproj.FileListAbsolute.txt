@@ -20,3 +20,4 @@ E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\net6.0-windo
 E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\net6.0-windows\MySB.pdb
 E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\net6.0-windows\MySB.genruntimeconfig.cache
 E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\obj\Debug\net6.0-windows\ref\MySB.dll
+E:\Projetos\SOS BOMBAS\ERP-SOS_BOMBAS\Aplicacao\MySB\MySB\bin\Debug\net6.0-windows\MySB.dll.config

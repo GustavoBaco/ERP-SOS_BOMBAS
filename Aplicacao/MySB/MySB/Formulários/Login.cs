@@ -1,4 +1,5 @@
 ﻿using MySB.Formulários;
+using MySB.Servico;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +14,11 @@ namespace MySB
 {
     public partial class Login : Form
     {
+        private ServicoMySB _servico;
         public Login()
         {
             InitializeComponent();
+            _servico = new ServicoMySB();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -23,9 +26,10 @@ namespace MySB
             Application.Exit();
         }
 
+
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            if (txbLogin.Text == "admin" && mskSenha.Text == "admin")
+            if (_servico.ValidaUsuarioLogin(txbLogin.Text.Trim(), mskSenha.Text.Trim()))
             {
                 this.Hide();
                 var menu = new Menu();

@@ -13,6 +13,7 @@
     <SourceRoot Include="C:\Users\gmanc\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.7\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.7\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)costura.fody\5.7.0\build\Costura.Fody.props" Condition="Exists('$(NuGetPackageRoot)costura.fody\5.7.0\build\Costura.Fody.props')" />
   </ImportGroup>
 </Project>

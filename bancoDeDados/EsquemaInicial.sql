@@ -1,0 +1,12 @@
+CREATE DATABASE SOSBOMBAS;
+
+USE SOSBOMBAS;
+
+CREATE TABLE LOGIN (
+Usuario VARCHAR(20),
+Senha	VARCHAR(10)
+);
+
+INSERT INTO LOGIN VALUES ('admin','admin');
+
+select * from login;
